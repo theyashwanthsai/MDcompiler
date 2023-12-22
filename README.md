@@ -1,4 +1,4 @@
-# MD Parser
+# Markdown Compiler
 
 Building a simple markdown compiler in rust
 

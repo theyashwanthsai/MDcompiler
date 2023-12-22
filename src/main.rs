@@ -2,7 +2,8 @@
 fn usage(){
 
     // let ver: u32;
-    let ver = get_version();
+    // let ver = get_version();
+    let ver = "0.1.0";
     println!("mdcompiler, A tiny markdown compiler written in rust by Sai Yashwanth");
     println!("Version {}", ver);
 }

@@ -1,8 +1,9 @@
 [package]
 name = "mdcompiler"
 version = "0.1.0"
+authors = ["Sai Yashwanth"]
 edition = "2021"
-
+description = "A simple markdown compiler"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]

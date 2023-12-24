@@ -1,6 +1,24 @@
+use::std::io::{BufRead, BufReader};
+use::std::fs::File;
+use::std::path::Path;
+
 fn parse_md(filename: &str){
     print_short_banner();
     println!("[ INFO ] Trying to parse {}....", filename);
+    
+    let input_filename = Path::new(filename);
+
+    let file = File::open(&input_filename).expect("[ ERROR ] Failed to open file");
+
+    let mut h1flag: bool = false;
+    let mut pflag: bool = false;
+
+    let mut tokens: Vec<String> = Vec::new();
+
+    let reader = BufReader::new(file);
+
+
+    
 }
 
 

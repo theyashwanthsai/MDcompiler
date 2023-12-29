@@ -18,6 +18,13 @@ fn parse_md(filename: &str){
     let reader = BufReader::new(file);
 
 
+    for line in reader.lines(){
+        let line_content = line.unwrap();
+        // println!("{}", line_content);
+        
+        
+    }
+
     
 }
 
